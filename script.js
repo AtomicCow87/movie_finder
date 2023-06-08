@@ -55,7 +55,7 @@ var MovieFinder = function (_React$Component) {
         return response.json();
       };
 
-      fetch('https://www.omdbapi.com/?s=' + searchTerm + '&apikey=b7da8d63').then(checkStatus).then(json).then(function (data) {
+      fetch('https://www.omdbapi.com/?s=' + searchTerm + '&apikey=8ec65caa').then(checkStatus).then(json).then(function (data) {
         if (data.Response === 'False') {
           throw new Error(data.Error);
         }

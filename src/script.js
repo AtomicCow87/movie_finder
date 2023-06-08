@@ -33,7 +33,7 @@ class MovieFinder extends React.Component {
     
     const json = (response) => response.json()
     
-    fetch(`https://www.omdbapi.com/?s=${searchTerm}&apikey=b7da8d63`)
+    fetch(`https://www.omdbapi.com/?s=${searchTerm}&apikey=8ec65caa`)
       .then(checkStatus)
       .then(json)
       .then(data => {
